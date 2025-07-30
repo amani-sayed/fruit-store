@@ -1,0 +1,375 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'comfortaa',sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+ }
+nav{
+   display:flex;
+   align-items: center;
+   position: fixed;
+   justify-content: space-around;
+   height: 70px;
+   background-color: rgba(255, 255,255, 0.703);
+   -webkit-backdrop-filter: blur(30px);
+   backdrop-filter: blur(30px);
+   width: 100%;
+   z-index:1 ;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+i{
+   font-size: 30px;
+   color: crimson;
+}
+.logo{
+   color: crimson;
+   font-size:30px ;
+}
+.logo{
+   text-decoration: none;
+}
+.nav a {
+   text-decoration: none;
+   color: crimson;
+   font-size: 20px;
+   font-weight: 700;
+   margin: 20px;
+   padding: 13px;
+   transition: all 0.1s ease;
+}
+.nav a:hover{
+border: none;
+background-color: crimson;
+color: aliceblue;
+border-radius: 50px;
+}
+.homepage{
+   background-image: url(fruitt.jpg);
+   background-size: 3000px;
+   background-repeat: no-repeat;
+   background-position-x: 40px;
+   background-position-y: -1150px;
+   height: 1150px;
+   display: flex;
+   align-items: center;
+}
+.content{
+   margin-left:100px ;
+}
+.content{
+   font-size: 40px;
+}
+.content h1{
+   display: flex;
+   color: crimson;
+   font-size: 100px;
+   margin: 30px 0;
+   text-shadow: 0 0 100px crimson;
+}
+.content button{
+   margin-top: 100px;
+   height: 70px;
+   width: 190px;
+   border: none;
+   background-color: crimson;
+   color: aliceblue;
+   border-radius: 40px;
+   font-size: 20px;
+   font-weight: 1000;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.content button:hover{
+   box-shadow: 0 10px 50px 5px rgb(204, 6, 45);
+}
+::-webkit-scrollbar{
+   width: 7px;
+   background-color: #ffffffb1;
+}
+::-webkit-scrollbar-thumb{
+   width: 7px;
+   background-color:  rgb(212, 89, 113);
+   border-radius: 2px;
+}
+.section2{
+   
+  /* height: 500px;*/
+   background-color: white;
+   box-shadow: 0 -150px 80px 80px rgb(255, 255, 255);
+   display: flexbox;
+   margin-bottom: 50px ;
+}
+.header1{
+   width: 100%;
+   margin-left: 9px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center ;
+   
+}
+.header1 button{
+height: 70px;
+width: 180px;
+   background-color: crimson;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 700;
+   border: none;
+   border-radius: 35px;
+   cursor: pointer;
+   transition: all 0.3s ease;   
+}
+.header1 button:hover{
+   box-shadow: 0 10px 50px 5px rgb(204, 6, 45);
+}
+
+
+.categores{
+   display: flex;
+   width: 95%;
+   margin-left: 10px;
+   justify-content: space-between;
+   margin-top: 50px;
+
+}
+.custom-image{
+   object-fit: contain;
+   width: 100%;
+   height: 51%;
+   padding-top: 10%;
+  
+}
+.categores .item1:hover{
+   background-color: #f2b70549;
+}
+.categores .item1{
+   width: 19%;
+   background-color: #f2b7051e;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.categores .item2:hover{
+   background-color: #05f20940;
+}
+.categores .item2{
+   width: 19%;
+   background-color: #12b12784;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.categores .item3:hover{
+   background-color: #d0de0d;
+}
+.categores .item3{
+   width: 19%;
+   background-color: #bcee049e;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.categores .item4:hover{
+   background-color: #1cffc62b;
+}
+.categores .item4{
+   width: 19%;
+   background-color: #1631911e;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
+.categores .item5:hover{
+   background-color: #f8121249;
+}
+.categores .item5{
+   width: 19%;
+   background-color: #7d00021e;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.section2{
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 2;
+}
+.section2 h3{
+   text-align: center;
+   margin-top: 15px;
+}
+.section2 h4{
+   text-align: center;
+   margin-top: 5px;
+   padding-bottom: 30px;
+}
+
+.header2{
+   width: 100%;
+   margin-left: 150px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center ;
+   
+}
+.header2 button{
+height: 70px;
+width: 180px;
+margin-right: 15%;
+   background-color: crimson;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 700;
+   border: none;
+   border-radius: 35px;
+   cursor: pointer;
+   transition: all 0.3s ease;   
+}
+.header2 button:hover{
+   box-shadow: 0 10px 50px 5px rgb(204, 6, 45);
+}
+.products{
+   display:grid;
+  
+  grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+   margin-top: 30px;
+   margin-left: 10%;
+}
+.products div{
+   width: 90%;
+   margin-top: 30px;
+   box-shadow: 1px 2px 11px 4px rgb(14 55 54 /15%);
+   position: relative;
+   cursor: pointer;
+}
+.products img{
+   width: 50%;
+   margin-left: 15%;
+}
+.products h4{
+   margin-left: 20px;
+}
+.products h2{
+   margin-left: 20px;
+   margin-top:20px ;
+}
+.products h3{
+   margin-left: 20px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 22px;
+}
+.products h3 span{
+   color: red;
+}
+.products .fa-cart-shopping{
+   position: absolute;
+   right: 0px;
+   bottom: 0;
+   background-color: crimson;
+   color: aliceblue;
+   padding: 8px;
+   border-radius: 10px 0 10px 0;
+
+}
+.products .fa-cart-shopping:hover{
+   background-color: rgb(73, 0, 0);
+   transition: all 0.1s;
+}
+.products .fa-heart{
+   position: absolute;
+   right: 15px;
+   top: 15px;
+   font-size: 25px;
+   color: rgb(255, 0, 0);
+}
+.products .offre{
+   position:absolute;
+   top: 15px;
+   left: 0px;
+   padding: 4px 10px;
+   width: 50px;
+   background-color: red;
+   color: aliceblue;
+   font-weight: 700;
+   /* mnektob clip path b net w mna3mol chakel le badna yeh w hene bya3touna code*/
+   clip-path: polygon(100% 0, 82% 51%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.about{
+   display: flex;
+   margin-top: 300px;
+   width: 80%;
+   margin-left: 10%;
+   justify-content: space-between;
+}
+.img {
+   width: 47%;
+}
+.img img{
+   width: 100%;
+   border-radius: 10px;
+   -webkit-user-drag: none;
+}
+.content3 h2{
+   font-size: 20px;
+   line-height: 40px;
+   margin-top: 10px;
+}
+.content3 h1{
+   color: crimson;
+   font-size: 40px;
+   margin: 10px 0;
+}
+.content3{
+   width: 47%;
+}
+.contacts{
+   background-color: rgba(157, 154, 154, 0.801);
+   margin-top: 200px;
+   padding-top: 50px;
+
+}
+.contects2{
+   display: flex;
+   justify-content: space-around;
+}
+.logo2 h3{
+  color: crimson;
+   font-size: 30px;
+   text-decoration: none;
+
+}
+.logo2{
+   display: flex;
+   text-decoration: none;
+   align-items:center ;
+}
+.social .fa-brands{
+   font-size: 30px;
+   color: white;
+   background-color: crimson;
+   border-radius: 30px;
+   text-align: center;
+   width: 50px;
+   padding: 10px 0;
+   margin: 5px;
+   cursor: pointer;
+}
+.social .fa-brands:hover{
+   color: crimson;
+   background-color: white;
+   transition: all 0.1s ease;
+}
+.contacts .right{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin-top: 50px;
+   padding-bottom: 20px;
+}
